@@ -1,0 +1,8 @@
+# Core dependencies (CPU-only, no TensorFlow, no Spark, no HDFS needed)
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+plotly>=5.18
+pyarrow>=14.0
+pillow>=10.0

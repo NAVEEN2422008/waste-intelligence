@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+# generated / user-supplied artefacts
+data/*.parquet
+data/*.csv
+outputs/*
+!outputs/.gitkeep
+!data/.gitkeep

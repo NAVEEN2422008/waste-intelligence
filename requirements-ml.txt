@@ -1,0 +1,5 @@
+# OPTIONAL: only needed to load YOUR trained image-classification model.
+# Install AFTER requirements.txt:   pip install -r requirements-ml.txt
+# Windows native TensorFlow is CPU-only (fine for inference). If pip cannot find a
+# matching wheel, use Python 3.10-3.12 for the virtual environment.
+tensorflow>=2.16
